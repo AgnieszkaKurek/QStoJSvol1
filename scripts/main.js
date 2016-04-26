@@ -9,4 +9,7 @@
 
 var myFavoriteMovie = prompt("What is your farvorite movie ?");
 alert("My favorite movie is" + " " + myFavoriteMovie);
+
+var randomNumber = Math.random();
+alert(randomNumber);
  
