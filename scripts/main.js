@@ -7,6 +7,6 @@
  * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
  */
 
-var myFavoriteMovie = "Troll 2";
+var myFavoriteMovie = prompt("What is your farvorite movie ?");
 alert("My favorite movie is" + " " + myFavoriteMovie);
  
