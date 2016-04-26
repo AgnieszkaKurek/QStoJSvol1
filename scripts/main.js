@@ -7,6 +7,6 @@
  * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
  */
 
-alert("Hello World!");
-confirm("I love JavaScript!");
-prompt("Do you want to lear to JavaScript?");
+
+ console.log("Hello World!");
+ 
