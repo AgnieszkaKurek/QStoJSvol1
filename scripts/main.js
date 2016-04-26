@@ -7,6 +7,6 @@
  * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
  */
 
-
- console.log("Hello World!");
+var myFavoriteMovie = "Troll 2";
+alert("My favorite movie is" + " " + myFavoriteMovie);
  
