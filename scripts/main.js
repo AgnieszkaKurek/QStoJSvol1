@@ -7,9 +7,7 @@
  * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
  */
 
-var myFavoriteMovie = prompt("What is your farvorite movie ?");
-alert("My favorite movie is" + " " + myFavoriteMovie);
 
-var randomNumber = Math.random();
+var randomNumber = Math.random() *5;
 alert(randomNumber);
  
