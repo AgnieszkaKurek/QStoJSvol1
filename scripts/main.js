@@ -16,4 +16,19 @@ if(answer === "Albany"){
 else {
     alert("sorry"+ " " + answer + " " + "is not corect");
 }
- 
+
+var farvoriteAnimal = prompt("Wkat is your farvorite animal?");
+
+if(farvoriteAnimal === "cat"){
+    alert("cat are awesome!");
+}
+else if(farvoriteAnimal === "dog") {
+    alert("dog are awesome!");
+}
+else if(farvoriteAnimal === "pig") {
+    alert("pig are awesome!");
+}
+else {
+    alert(" good choice");
+}
+
