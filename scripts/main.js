@@ -1,34 +1,21 @@
-/*
- * This is a JavaScript Scratchpad.
- *
- * Enter some JavaScript, then Right Click or choose from the Execute Menu:
- * 1. Run to evaluate the selected text (Ctrl+R),
- * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
- * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
- */
+
+var randomNumber = Math.round(Math.random()*15);
+//var randomNumber = 0;
 
 
-var answer = prompt("what is the capital of New York?");
-
-if(answer === "Albany"){
-    alert("you are corect")
-}
-else {
-    alert("sorry"+ " " + answer + " " + "is not corect");
+ 
+if (randomNumber%3 === 0 && randomNumber !=0){
+    alert("fizz");
 }
 
-var farvoriteAnimal = prompt("Wkat is your farvorite animal?");
+else if (randomNumber%5 === 0 && randomNumber !=0){
+    alert("buzz");
+}
+else if (randomNumber%3 === 0 && randomNumber%5 === 0){
+    alert("fizzbuzz")
+}
 
-if(farvoriteAnimal === "cat"){
-    alert("cat are awesome!");
-}
-else if(farvoriteAnimal === "dog") {
-    alert("dog are awesome!");
-}
-else if(farvoriteAnimal === "pig") {
-    alert("pig are awesome!");
-}
-else {
-    alert(" good choice");
+else { 
+   console.log(randomNumber);
 }
 
