@@ -8,6 +8,12 @@
  */
 
 
-var randomNumber = Math.random() *5;
-alert(randomNumber);
+var answer = prompt("what is the capital of New York?");
+
+if(answer === "Albany"){
+    alert("you are corect")
+}
+else {
+    alert("sorry"+ " " + answer + " " + "is not corect");
+}
  
