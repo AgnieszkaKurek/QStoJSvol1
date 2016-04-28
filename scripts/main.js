@@ -1,5 +1,7 @@
-function calculateArea(side1, side2) {
- console.log(side1 * side2);
+var friends = ["Mark", "Lisa" ,"Denny" ,"Peter" ,"Steven" ,"Claudette"];
+function greetFriends() {
+  for(var i = 0; i < friends.length; i++ ) {
+    console.log("Oh hi" + " " + friends[i]);
+   }
 }
-
-calculateArea(10,40);
+greetFriends();

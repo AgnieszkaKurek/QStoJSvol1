@@ -16,6 +16,9 @@ em {
     color: #ea6f05;
 }
 
+.clear {
+  clear: both; 
+}
 /*------- Styles for Hint -------*/
 .hover-hint p {
     border: 1px solid #ea6f05 ;
@@ -57,7 +60,6 @@ em {
 .green {
   color: #61af12;
 }
-
 /*----------Friends!--------*/
 
 .friend {
@@ -131,14 +133,20 @@ em {
   float: left;
 }
 
-.hideLisa {
-  visibility: hidden; 
-}
-
-.hideDenny {
-  visibility: hidden; 
-}
-
 .friend p {
   margin-left: -10px; 
+}
+.peter {
+  background-color: #804f00;
+  float: left;
+}
+
+.steven {
+  background-color: #0093ff;
+  float: left;
+}
+
+.claudette {
+  background-color: #800071;
+  float: left;
 }
