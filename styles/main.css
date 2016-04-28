@@ -2,9 +2,14 @@
 body {
      background: #292929;
      color: #eaeaea;
-     padding: 0 16px;
+     padding: 30px;
      font: 100% "Open Sans", Helvetica, Arial, sans-serif;
-}            
+} 
+main {
+  margin: 0 auto; 
+  max-width: 600px;
+  padding: 30px;
+}
 h1 {
      font-size: 1.5em; 
 }
@@ -16,9 +21,23 @@ em {
     color: #ea6f05;
 }
 
-.clear {
-  clear: both; 
+a {
+  color: #ea6f05; 
 }
+
+  a:hover {
+   color: #f7c261; 
+  }
+
+td {
+  max-width: 400px; 
+  padding: 20px;
+}
+
+tr:nth-child(odd){
+  background-color: #343333; 
+}
+
 /*------- Styles for Hint -------*/
 .hover-hint p {
     border: 1px solid #ea6f05 ;
@@ -60,93 +79,31 @@ em {
 .green {
   color: #61af12;
 }
-/*----------Friends!--------*/
 
-.friend {
-  margin: 60px;
-  width: 20px;
-  height: 40px;
-}
-  .head {
-    background-color: #f0f2bf;
-    width: 15px;
-    height: 15px;
-    position: relative;
-    top: -15px;
-    left: 2.5px;
-  }
-
-  .armR {
-    background-color: #f0f2bf;
-    width: 20px;
-    height: 5px;
-    position: relative;
-    left: 12px;
-    top: -10px;
-    z-index: -1;
-  }
-
-  .armL {
-    background-color: #f0f2bf;
-    width: 17px;
-    height: 5px;
-    position: relative;
-    left: -12px;
-    top: -15px;
-    z-index: -1;
-  }
-
-  .legR {
-    background-color: #f0f2bf;
-    width: 25px;
-    height: 5px;
-    position: relative;
-    top: 11px;
-    left: 3px;
-    transform:rotate(80deg);
-    z-index: -1;
-  }
-
-.legL {
-    background-color: #f0f2bf;
-    width: 25px;
-    height: 5px;
-    position: relative;
-    top: 6px;
-    left: -7px;
-    transform:rotate(-80deg);
-    z-index: -1;
-  }
-
-.mark {
-  background: #0a0a33; 
-  float: left;
+/*------ Building (with some imagination) ------*/
+.building {
+  width: 60px;
+  height: 150px;
+  background: #363636;
+  box-shadow: 7px -7px #222;
+  margin: 0 auto 20px auto;
 }
 
-.lisa {
-  background: #88111f;
-  float: left;
+.windowL {
+  background-color: #88bfc1;
+  width: 10px;
+  height: 15px;
+  margin: 10px 10px 0 13px;
+  position: relative;
+  top: 10px;
 }
 
-.denny {
-  background: #38883e;
-  float: left;
-}
-
-.friend p {
-  margin-left: -10px; 
-}
-.peter {
-  background-color: #804f00;
-  float: left;
-}
-
-.steven {
-  background-color: #0093ff;
-  float: left;
-}
-
-.claudette {
-  background-color: #800071;
-  float: left;
+.windowR {
+  background: #6a77be;
+  width: 10px;
+  height: 15px;
+  margin: 10px 10px 0 10px;
+  position: relative;
+  top: -115px;
+  right: -27px;
 }
