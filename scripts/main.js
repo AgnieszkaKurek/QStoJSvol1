@@ -1,13 +1,20 @@
-var coffeeFlover = "espresso";
-var coffeeTemperature = "piping hot";
-var coffeeOunces = 100;
-var coffeeMilk = true;
-
 var myCoffee = {
   flavor: "espresso",
   temperature:"piping hot",
   ounces: 100,
-  milk:true
+  milk:true,
+  
+  reheat: function () {
+    if(myCoffee.temperature === "cold") {
+      myCoffee.temperature = "piping hot";
+      alert("your coffee has been reheated !")
+    }
+    
+  }
+  
+  
 };
 
-alert(myCoffee.flavor);
+myCoffee.temperature = "cold";
+myCoffee.reheat();
+
