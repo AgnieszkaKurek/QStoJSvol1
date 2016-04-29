@@ -1,20 +1,18 @@
-var three = "3"
-function alertNumber() {
-  var one = "1";
-  alert(one);
-  
-  function alertAnotherNumber(){
-    var two = "2";
-    alert(two);
-    alert(three);
-    alert("one")
+window.alert("hello world");
+
+function lameJoke() {
+  randomNumber = Math.round(Math.random() * 2);
+  if(randomNumber === 1) {
+   alert("How many tickles does it take to make an octopus lauth? Ten tickles");
   }
-  alertAnotherNumber();
-  
+  else if (randomNumber === 2) {
+    alert("why did  the scarecrow win an award? Because he was outstranding  in the field.");
+  }
+  else {
+    alert("Why did the chicken cross the road? To get to other side!");
+  }
 }
-
-alertNumber();
-
+lameJoke();
  
 
  
