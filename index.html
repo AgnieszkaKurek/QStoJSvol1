@@ -9,34 +9,56 @@
         
     </head>
    <body>
-        <div id="coffee">
-            <div class="splash"></div>
-            <div class="splash" id="splash2"></div>
-            <div class="splash" id="splash3"></div>
-            <div class="splash" id="splash4"></div>
-            <div class="handle" id="handle1"></div>
-            <div class="handle" id="handle2"></div>
-            <div class="handle" id="handle3"></div>
-      </div>
-        <h1>Objects</h1>
-      <p>An <em>object</em> is a collection of <em>properties</em>, which are described in the form of<em> key / value</em> pairs. We can use objects to model "things" using code. </p>
-      <div class="hover-hint">
+       <div class="friend mark">
+            <div class="head"></div>
+            <div class="armR"></div>
+            <div class="armL"></div>
+            <div class="legR"></div>
+            <div class="legL"></div>
+            <p>Mark</p>
+        </div>
+        <div class="friend lisa">
+            <div class="head"></div>
+            <div class="armR"></div>
+            <div class="armL"></div>
+            <div class="legR"></div>
+            <div class="legL"></div>
+          <p>Lisa</p>
+        </div>
+        <div class="friend denny">
+            <div class="head"></div>
+            <div class="armR"></div>
+            <div class="armL"></div>
+            <div class="legR"></div>
+            <div class="legL"></div>
+          <p>Denny</p>
+        </div>
+      
+        <h1>Understanding Objects</h1>
+      <p>Our friends are back! Let's objectify them (in a good way).</p>
+        <p>When we created our object myCoffee, we created it using what is called an <em>object literal</em>.  When we create objects this way, we are both defining and creating a single object, referred to as an <em>instance</em> of an object. </p>
+          <p>What if we want to create multiple instances of an object?  We can create something called an <em>object constructor</em>, in which we use a function to create multiple instances of an object. Each instance <em>inherits</em> the properties and methods of its constructor.</p>
+     <div class="hover-hint">
             <p>View syntax example</p>
            <div class="hint">
             <code>
-                <pre>
-                <span class="orange">var</span><span class="blue"> myFirstObject</span> = {
+                <pre>                <span class="orange">var</span><span class="blue"> myFirstObjectLiteral</span> = {
                 
                   //add necessary properties
                   <span class="blue">exampleKey:</span> <span class="orange">exampleValue</span>
                 
                 };
-           
+                
+               <span class="blue">function</span> <span class="orange">MyFirstConstructor(example)</span> {
+                
+                  //add necessary properties
+                  <span class="blue">this.example</span> = <span class="orange">example</span>;
+                
+                };
                </pre>
             </code>
            </div>
         </div>
-
 
 
     <script src="scripts/main.js" type="text/javascript"></script>  

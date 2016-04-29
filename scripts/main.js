@@ -1,20 +1,23 @@
-var myCoffee = {
-  flavor: "espresso",
-  temperature:"piping hot",
-  ounces: 100,
-  milk:true,
-  
-  reheat: function () {
-    if(myCoffee.temperature === "cold") {
-      myCoffee.temperature = "piping hot";
-      alert("your coffee has been reheated !")
-    }
-    
-  }
-  
-  
+var mark = {
+  name:"Mark",
+  tshirtColor: "navy blue"
 };
 
-myCoffee.temperature = "cold";
-myCoffee.reheat();
+
+var lisa = {
+  name:"Lisa",
+  tshirtColor: "red"
+};
+
+function Friend(name, tshirtColor) {
+  this.name = name;
+  this.tshirtColor = tshirtColor;
+}
+
+var denny = new Friend("Denny", "green");
+var lisa = new Friend("Lisa", "red")
+
+
+alert(denny.name);
+
 
