@@ -9,7 +9,6 @@ body {
 }            
 h1 {
      font-size: 1.5em; 
-     clear:both;
 }
 p {
     font-size: 1em;
@@ -60,81 +59,55 @@ em {
 .green {
   color: #61af12;
 }
-
-/*----------Friends!--------*/
-
-.friend {
-  margin: 60px 60px 100px 60px;
+/*----- JavaMug ------*/
+#coffee {
+  background-color: #fff;
+  width: 70px;
+  height: 100px;
+  margin: 20px auto;
+  position: relative;
+}
+.handle {
+  background-color: #fff;
+  position: relative;
+  height: 10px;
   width: 20px;
-  height: 40px;
+  left: 70px;
+}
+#handle1 {
+  top: 20px;
 }
 
-  .head {
-    background-color: #f0f2bf;
-    width: 15px;
-    height: 15px;
-    position: relative;
-    top: -15px;
-    left: 2.5px;
-  }
-
-  .armR {
-    background-color: #f0f2bf;
-    width: 20px;
-    height: 5px;
-    position: relative;
-    left: 12px;
-    top: -10px;
-    z-index: -1;
-  }
-
-  .armL {
-    background-color: #f0f2bf;
-    width: 17px;
-    height: 5px;
-    position: relative;
-    left: -12px;
-    top: -15px;
-    z-index: -1;
-  }
-
-  .legR {
-    background-color: #f0f2bf;
-    width: 25px;
-    height: 5px;
-    position: relative;
-    top: 11px;
-    left: 3px;
-    transform:rotate(80deg);
-    z-index: -1;
-  }
-
-.legL {
-    background-color: #f0f2bf;
-    width: 25px;
-    height: 5px;
-    position: relative;
-    top: 6px;
-    left: -7px;
-    transform:rotate(-80deg);
-    z-index: -1;
-  }
-
-.mark {
-  background: #0a0a33; 
-  float: left;
+#handle2 {
+  width: 10px;
+  height: 60px;
+  left: 90px;
+  top: 10px;
 }
 
-.lisa {
-  background: #88111f;
-  float: left;
+#handle3 {
+  top: 0px;
 }
 
-.denny {
-  background: #38883e;
-  float: left;
+.splash {
+  width: 7px;
+  height: 10px;
+  background: #644949;
+  position: absolute;
+  top: 0px;
+  left: 3px;
 }
 
-.friend p {
-  margin-left: -10px; 
+#splash2 {
+  left: 10px;
+  height: 29px;
+}
+#splash3 {
+  left: 15px;
+  height: 16px;
+}
+#splash4 {
+  left: 22px;
+  height: 3px;
+  width: 8px;
 }
